@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* font */
         @font-face {
             font-family: 'S-CoreDream-8Heavy';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
@@ -21,136 +20,121 @@
         }
 
         /* layout */
-        #wrap {
+        #warp {
             width: 100%;
-            font-family: 'S-CoreDream-8Heavy';
             color: #fff;
-            font-size: 72px;
             text-align: center;
             text-transform: uppercase;
+            font-size: 72px;
+            font-family: 'S-CoreDream-8Heavy';
         }
 
-        #header {
+        #header1 {
             width: 100%;
-            height: 150px;
-            background-color: #a0d1fa;
-            line-height: 150px;
+            height: 70px;
+            background-color: #e8f5e9;
+            line-height: 70px;
+        }
+
+        #header2 {
+            width: 100%;
+            height: 70px;
+            background-color: #c8e6c9;
+            line-height: 70px;
         }
 
         #banner {
             width: 100%;
-            height: 500px;
-            background-color: #81a7c7;
-            line-height: 500px;
-        }
-
-        #content1 {
-            width: 100%;
-            height: 600px;
-            background-color: #6686a0;
-            line-height: 600px;
-        }
-
-        #content2 {
-            width: 100%;
-            height: 550px;
-            background-color: #4f667a;
-            line-height: 550px;
-        }
-
-        #content3 {
-            width: 100%;
-            height: 550px;
-            background-color: #3a4b5b;
-            line-height: 550px;
-        }
-
-        #content4 {
-            width: 100%;
-            height: 650px;
-            background-color: #28343f;
-            line-height: 650px;
-        }
-
-        #content5 {
-            width: 100%;
-            height: 550px;
-            background-color: #3c4955;
-            line-height: 550px;
-        }
-
-        #content6 {
-            width: 100%;
             height: 400px;
-            background-color: #274259;
+            background-color: #a5d6a7;
             line-height: 400px;
         }
 
-        #content7 {
+        #conetent1 {
             width: 100%;
-            height: 80px;
-            background-color: #315370;
-            line-height: 80px;
+            height: 320px;
+            background-color: #81c784;
+            line-height: 320px;
+        }
+
+        #conetent2 {
+            width: 100%;
+            height: 960px;
+            background-color: #66bb6a;
+            line-height: 960px;
+        }
+
+        #conetent3 {
+            width: 100%;
+            height: 1600px;
+            background-color: #4caf50;
+            line-height: 1600px;
+        }
+
+        #conetent4 {
+            width: 100%;
+            height: 320px;
+            background-color: #43a047;
+            line-height: 320px;
         }
 
         #footer1 {
             width: 100%;
-            height: 80px;
-            background-color: #396183;
-            line-height: 80px;
+            height: 100px;
+            background-color: #388e3c;
+            line-height: 100px;
         }
 
         #footer2 {
             width: 100%;
-            height: 150px;
-            background-color: #45769f;
-            line-height: 150px;
+            height: 100px;
+            background-color: #1b5e20;
+            line-height: 100px;
         }
 
         /* container */
         .container {
             width: 1200px;
-            height: inherit;
             margin: 0 auto;
+            height: inherit;
             background-color: rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 
 <body>
-    <div id="wrap">
+    <div id="warp">
         <div id="header">
-            <div class="container">header</div>
+            <div id="header1">
+                <div class="container">header1</div>
+            </div>
+            <div id="header2">
+                <div class="container">header2</div>
+            </div>
         </div>
         <!-- header -->
+
         <div id="banner">
             <div class="container">banner</div>
-            <!-- banner -->
         </div>
-        <div id="conents">
-            <div id="content1">
-                <div class="container">content1</div>
+        <!-- banner -->
+
+        <div id="contents">
+            <div id="conetent1">
+                <div class="container">conetent1</div>
             </div>
-            <div id="content2">
-                <div class="container">content2</div>
+            <div id="conetent2">
+                <div class="container">conetent2</div>
             </div>
-            <div id="content3">
-                <div class="container">content3</div>
+            <div id="conetent3">
+                <div class="container">conetent3</div>
             </div>
-            <div id="content4">
-                <div class="container">content4</div>
-            </div>
-            <div id="content5">
-                <div class="container">content5</div>
-            </div>
-            <div id="content6">
-                <div class="container">content6</div>
-            </div>
-            <div id="content7">
-                <div class="container">content7</div>
+            <div id="conetent4">
+                <div class="container">conetent4</div>
             </div>
         </div>
         <!-- contents -->
+
         <div id="footer">
             <div id="footer1">
                 <div class="container">footer1</div>
@@ -163,4 +147,5 @@
     </div>
     <!-- warp -->
 </body>
+
 </html>
