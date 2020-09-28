@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout04</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'S-CoreDream-8Heavy';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: #fafafa;
+        }
+    #warp {
+        width: 1200px; 
+        height: 1600px;
+        margin: 0 auto;
+        font-size: 72px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'S-CoreDream-8Heavy';
+    }
+    #header {
+        width: 1200px; 
+        height: 150px;
+        background: #bdbdbd;
+        line-height: 150px;
+    }
+    #nav {
+        width: 1200px; 
+        height: 150px; 
+        background: #9e9e9e;
+        line-height: 150px;
+    }
+    #side {
+        width: 400px; 
+        height: 1100px; 
+        background: #757575;
+        float: left;
+        line-height: 1100px;
+    }
+    #contents1 {
+        width: 800px; 
+        height: 370px; 
+        background: #616161;
+        float: left;
+        line-height: 370px;
+    }
+    #contents2 {
+        width: 800px; 
+        height: 360px;
+        background: #424242;
+        float: left;
+        line-height: 360px;
+    }
+    #contents3 {
+        width: 800px; 
+        height: 370px;
+        background: #2b2b29;
+        float: left;
+        line-height: 370px;
+    }
+    #footer {
+        width: 1200px; 
+        height: 200px; 
+        background: #212121;
+        clear: both;
+        line-height: 200px;
+    }
+</style>
+<body>
+    <div id="warp">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="side">side</div>
+        <div id="contents1">contents1</div>
+        <div id="contents2">contents2</div>
+        <div id="contents3">contents3</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
