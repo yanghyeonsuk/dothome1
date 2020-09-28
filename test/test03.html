@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면 구현 03</title>
+    <style>
+        @font-face {
+            font-family: 'S-CoreDream-8Heavy';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #e8eaf6;
+        }
+
+        #warp {
+            width: 1200px;
+            height: 1600px;
+            margin: 0 auto;
+            font-family: 'S-CoreDream-8Heavy';
+            font-size: 72px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #side {
+            width: 400px;
+            height: 1600px;
+            background: #9fa8da;
+            float: left;
+            line-height: 1600px;
+        }
+
+        #header {
+            width: 800px;
+            height: 300px;
+            background: #7986cb;
+            line-height: 300px;
+            float: left;
+        }
+
+        #contents {
+            width: 800px;
+            height: 900px;
+            background: #5c6bc0;
+            line-height: 800px;
+            float: left;
+        }
+
+        #footer {
+            width: 800px;
+            height: 400px;
+            background: #7d93b3;
+            line-height: 400px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="warp">
+        <div id="side">side</div>
+        <div id="header">header</div>
+        <div id="contents">contents</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+
+</html>
